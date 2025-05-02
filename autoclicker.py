@@ -3,12 +3,12 @@ import time
 import keyboard
 
 
-def autoclicker(interval=2, toggle_key='f'):
+def autoclicker(interval=5, toggle_key='f'):
     print(f"Натисніть '{toggle_key}' для запуску/зупинки...")
     running = False
     base_x, base_y = pyautogui.position()
-    offset_y = 50
-    offset_x = 0
+    offset_y = 240
+    offset_x = 120
 
     while True:
         if keyboard.is_pressed(toggle_key):
