@@ -3,9 +3,20 @@ Autoclicker Mouse
 
 ## Створення віртуального середовища
 
-```
+```bash
 python -m venv venv
-venv\scripts\activate
+```
+
+Activate the virtual environment:
+
+On Windows:
+```bash
+venv\Scripts\activate
+```
+
+On macOS/Linux:
+```bash
+source venv/bin/activate
 ```
 
 ## Команди для встановлення залежностей:

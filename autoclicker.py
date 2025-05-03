@@ -15,6 +15,7 @@ def autoclicker(interval=5, toggle_key='f'):
             base_x, base_y = pyautogui.position()
             running = not running
             print("Автоклікер запущено" if running else "Автоклікер зупинено")
+            
             # Запобігання багаторазовому спрацюванню на одне натискання
             time.sleep(0.5)
 
